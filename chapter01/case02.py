@@ -2,7 +2,7 @@
 # @Author: StudentCWZ
 # @Date:   2022-04-05 16:07:44
 # @Last Modified by:   StudentCWZ
-# @Last Modified time: 2022-04-05 16:58:53
+# @Last Modified time: 2022-04-05 17:18:43
 
 
 # 遵循 PEP 8 风格指南
@@ -33,5 +33,10 @@
 (2) 不要通过检测长度的方法(如 if len(somelist) == 0)来判断 somelist 是否为 [] 或 "" 等空值，而是应该采用 if not somelist 这种写法
 来判断，它会假定：空值将自动评估为 False。
 (3) 检测 somelist 是否为 [1] 或者 "hi" 等非空值，也应如此，if somelist 语句默认会把非空的值判断为 True。
-(4)
+(4) 不要编写单行的 if 语句、for 循环、while 循环及 except 复合语句，而是应该把这些语句分成多行来书写，以示清晰。
+(5) import 语句应该总是放在文件开头。
+(6) 引入模块的时候，总是应该使用绝对名称，而不是根据当前模块的路径来使用相对名称。例如，引入 bar 包中的 foo 模块时，应当完整的写出 from bar import foo，
+而不应该简写为 import foo。
+(7) 如果一定要以相对名称来编写 import 语句，那就采用明确的写法：from . import foo。
+(8) 文件中的那些 import 语句应该按顺序划分成三个部分，分别表示标准库模块、第三方模块以及自用模块。在每一部分之中，各 import 语句应该按模块的字母顺序来排序。
 '''
