@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignores the whole .idea folder and all .iml files
+.idea/
