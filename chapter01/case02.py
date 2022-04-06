@@ -5,7 +5,7 @@
 # @Last Modified time: 2022-04-05 17:24:47
 
 
-# 遵循 PEP 8 风格指南
+# 第二条：遵循 PEP 8 风格指南
 
 """
 1.《 Python Enhancement Proposal #8 》又叫 PEP 8，它是针对 Python 代码格式而编订的风格指南。
