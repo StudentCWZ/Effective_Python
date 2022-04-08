@@ -59,5 +59,3 @@ print('Before', a)
 a[:] = [101, 102, 103]
 assert a is b
 print('After: ', a)
-
-
