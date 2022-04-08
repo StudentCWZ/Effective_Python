@@ -130,3 +130,6 @@ dmypy.json
 
 # Ignores the whole .idea folder and all .iml files
 .idea/
+
+# Ignores the whole .idea folder and all .iml files
+.vscode/
