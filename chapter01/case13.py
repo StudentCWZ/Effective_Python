@@ -5,7 +5,7 @@
 # @Last Modified time: 2022/5/05 15:45
 
 
-# 合理利用 try/except/else/finally 结构中的每个代码块
+# 第十三条：合理利用 try/except/else/finally 结构中的每个代码块
 
 """
     1. Python 程序的异常处理可能要考虑四种不同的时机。这些时机可以用 try、except、else 和 finally 块来表述。
