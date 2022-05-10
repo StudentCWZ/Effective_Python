@@ -54,6 +54,7 @@ def index_file(handle):
         if line:
             yield offset
         for letter in line:
+            offset += 1
             if letter == " ":
                 yield offset
 
