@@ -2,7 +2,7 @@
 # @Author: cuiweizhi
 # @Date:   2022-05-11 08:41:49
 # @Last Modified by:   cuiweizhi
-# @Last Modified time: 2022-05-11 10:54:09
+# @Last Modified time: 2022-05-11 10:56:34
 
 
 # 第十七条：在参数上面迭代时，要多加小心
@@ -205,7 +205,7 @@ class ReadVisits(object):
                 yield int(line)
 
 
-def normalize_five(numbers):
+def normalize_six(numbers):
     if iter(numbers) is iter(numbers):  # An iterator -- bad!
         raise TypeError("Must supply a container")
     total = sum(numbers)
@@ -215,7 +215,7 @@ def normalize_five(numbers):
 
 
 visits = ReadVisits("my_numbers.txt")
-percentages = normalize_five(visits)
+percentages = normalize_six(visits)
 results = islice(percentages, 0, 3)
 print(list(results))
 print("-" * 60)
